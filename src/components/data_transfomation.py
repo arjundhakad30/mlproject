@@ -110,7 +110,7 @@ class DataTransformation:
 
             save_object(
 
-                file_path=self.data_transformation_config.preprocessor_obj_file_path,
+                 file_path=os.path.join("artifacts", "preprocessor.pkl"),
                 obj=preprocessing_obj
 
             )
